@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{30A8D8B8-83EB-4722-8A41-7878F157DF72}</ProjectGuid>
+    <RootNamespace>CS454</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+    <OutDir>$(SolutionDir)Bin\Debug</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+    <OutDir>$(SolutionDir)Bin\Debug</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+    <OutDir>$(SolutionDir)Bin\Release</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Allegro_AddonImage>true</Allegro_AddonImage>
+    <Allegro_AddonTTF>true</Allegro_AddonTTF>
+    <Allegro_AddonPrimitives>true</Allegro_AddonPrimitives>
+    <Allegro_AddonAudio>true</Allegro_AddonAudio>
+    <Allegro_AddonAcodec>true</Allegro_AddonAcodec>
+    <Allegro_AddonPhysfs>true</Allegro_AddonPhysfs>
+    <Allegro_AddonDialog>true</Allegro_AddonDialog>
+    <Allegro_AddonMemfile>true</Allegro_AddonMemfile>
+    <Allegro_AddonFont>true</Allegro_AddonFont>
+    <Allegro_AddonColor>true</Allegro_AddonColor>
+    <Allegro_AddonVideo>true</Allegro_AddonVideo>
+    <OutDir>$(SolutionDir)Bin\Release</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include\Utilities;$(SolutionDir)Include\Time;$(SolutionDir)Include\Terrain;$(SolutionDir)Include\Sprite;$(SolutionDir)Include\Sound;$(SolutionDir)Include\Mario;$(SolutionDir)Include\Items;$(SolutionDir)Include\Main;$(SolutionDir)Include\Enemies;$(SolutionDir)Include\Collision;$(SolutionDir)Include\App;$(SolutionDir)Include\Animators;$(SolutionDir)Include\Animations;$(SolutionDir)Include;$(SolutionDir);$(SolutionDir)Scr;$(SolutionDir)Scr\Time;$(SolutionDir)Scr\Terrain;$(SolutionDir)Scr\Sprite;$(SolutionDir)Scr\Sound;$(SolutionDir)Scr\Mario;$(SolutionDir)Scr\Main;$(SolutionDir)Scr\Items;$(SolutionDir)Scr\Enemies;$(SolutionDir)Scr\Collision;$(SolutionDir)Scr\App;$(SolutionDir)Scr\Animators;$(SolutionDir)Scr\Animations;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Src\Time;$(SolutionDir)Src\Terrain;$(SolutionDir)Src\Sprite;$(SolutionDir)Src\Sound;$(SolutionDir)Src\Mario;$(SolutionDir)Src\Main;$(SolutionDir)Src\Items;$(SolutionDir)Src\Enemies;$(SolutionDir)Src\Collision;$(SolutionDir)Src\App;$(SolutionDir)Src\Animators;$(SolutionDir)Src\Animations;$(SolutionDir)Include\Utilities;$(SolutionDir)Include\Time;$(SolutionDir)Include\Terrain;$(SolutionDir)Include\Sprite;$(SolutionDir)Include\Sound;$(SolutionDir)Include\Mario;$(SolutionDir)Include\Main;$(SolutionDir)Include\Items;$(SolutionDir)Include\Enemies;$(SolutionDir)Include\Collision;$(SolutionDir)Include\App;$(SolutionDir)Include\Animators;$(SolutionDir)Include\Animations;$(SolutionDir)Src\;$(SolutionDir);$(SolutionDir)Include\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include\Utilities;$(SolutionDir)Include\Time;$(SolutionDir)Include\Terrain;$(SolutionDir)Include\Sprite;$(SolutionDir)Include\Sound;$(SolutionDir)Include\Mario;$(SolutionDir)Include\Items;$(SolutionDir)Include\Main;$(SolutionDir)Include\Enemies;$(SolutionDir)Include\Collision;$(SolutionDir)Include\App;$(SolutionDir)Include\Animators;$(SolutionDir)Include\Animations;$(SolutionDir)Include;$(SolutionDir);$(SolutionDir)Scr;$(SolutionDir)Scr\Time;$(SolutionDir)Scr\Terrain;$(SolutionDir)Scr\Sprite;$(SolutionDir)Scr\Sound;$(SolutionDir)Scr\Mario;$(SolutionDir)Scr\Main;$(SolutionDir)Scr\Items;$(SolutionDir)Scr\Enemies;$(SolutionDir)Scr\Collision;$(SolutionDir)Scr\App;$(SolutionDir)Scr\Animators;$(SolutionDir)Scr\Animations;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)Src\Time;$(SolutionDir)Src\Terrain;$(SolutionDir)Src\Sprite;$(SolutionDir)Src\Sound;$(SolutionDir)Src\Mario;$(SolutionDir)Src\Main;$(SolutionDir)Src\Items;$(SolutionDir)Src\Enemies;$(SolutionDir)Src\Collision;$(SolutionDir)Src\App;$(SolutionDir)Src\Animators;$(SolutionDir)Src\Animations;$(SolutionDir)Include\Utilities;$(SolutionDir)Include\Time;$(SolutionDir)Include\Terrain;$(SolutionDir)Include\Sprite;$(SolutionDir)Include\Sound;$(SolutionDir)Include\Mario;$(SolutionDir)Include\Main;$(SolutionDir)Include\Items;$(SolutionDir)Include\Enemies;$(SolutionDir)Include\Collision;$(SolutionDir)Include\App;$(SolutionDir)Include\Animators;$(SolutionDir)Include\Animations;$(SolutionDir)Src\;$(SolutionDir);$(SolutionDir)Include\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include\Utilities;$(SolutionDir)Include\Time;$(SolutionDir)Include\Terrain;$(SolutionDir)Include\Sprite;$(SolutionDir)Include\Sound;$(SolutionDir)Include\Mario;$(SolutionDir)Include\Items;$(SolutionDir)Include\Main;$(SolutionDir)Include\Enemies;$(SolutionDir)Include\Collision;$(SolutionDir)Include\App;$(SolutionDir)Include\Animators;$(SolutionDir)Include\Animations;$(SolutionDir)Include;$(SolutionDir);$(SolutionDir)Scr;$(SolutionDir)Scr\Time;$(SolutionDir)Scr\Terrain;$(SolutionDir)Scr\Sprite;$(SolutionDir)Scr\Sound;$(SolutionDir)Scr\Mario;$(SolutionDir)Scr\Main;$(SolutionDir)Scr\Items;$(SolutionDir)Scr\Enemies;$(SolutionDir)Scr\Collision;$(SolutionDir)Scr\App;$(SolutionDir)Scr\Animators;$(SolutionDir)Scr\Animations;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Src\Time;$(SolutionDir)Src\Terrain;$(SolutionDir)Src\Sprite;$(SolutionDir)Src\Sound;$(SolutionDir)Src\Mario;$(SolutionDir)Src\Main;$(SolutionDir)Src\Items;$(SolutionDir)Src\Enemies;$(SolutionDir)Src\Collision;$(SolutionDir)Src\App;$(SolutionDir)Src\Animators;$(SolutionDir)Src\Animations;$(SolutionDir)Include\Utilities;$(SolutionDir)Include\Time;$(SolutionDir)Include\Terrain;$(SolutionDir)Include\Sprite;$(SolutionDir)Include\Sound;$(SolutionDir)Include\Mario;$(SolutionDir)Include\Main;$(SolutionDir)Include\Items;$(SolutionDir)Include\Enemies;$(SolutionDir)Include\Collision;$(SolutionDir)Include\App;$(SolutionDir)Include\Animators;$(SolutionDir)Include\Animations;$(SolutionDir)Src\;$(SolutionDir);$(SolutionDir)Include\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Include\Utilities;$(SolutionDir)Include\Time;$(SolutionDir)Include\Terrain;$(SolutionDir)Include\Sprite;$(SolutionDir)Include\Sound;$(SolutionDir)Include\Mario;$(SolutionDir)Include\Items;$(SolutionDir)Include\Main;$(SolutionDir)Include\Enemies;$(SolutionDir)Include\Collision;$(SolutionDir)Include\App;$(SolutionDir)Include\Animators;$(SolutionDir)Include\Animations;$(SolutionDir)Include;$(SolutionDir);$(SolutionDir)Scr;$(SolutionDir)Scr\Time;$(SolutionDir)Scr\Terrain;$(SolutionDir)Scr\Sprite;$(SolutionDir)Scr\Sound;$(SolutionDir)Scr\Mario;$(SolutionDir)Scr\Main;$(SolutionDir)Scr\Items;$(SolutionDir)Scr\Enemies;$(SolutionDir)Scr\Collision;$(SolutionDir)Scr\App;$(SolutionDir)Scr\Animators;$(SolutionDir)Scr\Animations;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)Src\Time;$(SolutionDir)Src\Terrain;$(SolutionDir)Src\Sprite;$(SolutionDir)Src\Sound;$(SolutionDir)Src\Mario;$(SolutionDir)Src\Main;$(SolutionDir)Src\Items;$(SolutionDir)Src\Enemies;$(SolutionDir)Src\Collision;$(SolutionDir)Src\App;$(SolutionDir)Src\Animators;$(SolutionDir)Src\Animations;$(SolutionDir)Include\Utilities;$(SolutionDir)Include\Time;$(SolutionDir)Include\Terrain;$(SolutionDir)Include\Sprite;$(SolutionDir)Include\Sound;$(SolutionDir)Include\Mario;$(SolutionDir)Include\Main;$(SolutionDir)Include\Items;$(SolutionDir)Include\Enemies;$(SolutionDir)Include\Collision;$(SolutionDir)Include\App;$(SolutionDir)Include\Animators;$(SolutionDir)Include\Animations;$(SolutionDir)Src\;$(SolutionDir);$(SolutionDir)Include\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Animations\Animation.h" />
+    <ClInclude Include="..\Include\Animations\AnimationFilm.h" />
+    <ClInclude Include="..\Include\Animations\AnimationFilmHolder.h" />
+    <ClInclude Include="..\Include\Animations\BitmapLoader.h" />
+    <ClInclude Include="..\Include\Animations\FlashAnimation.h" />
+    <ClInclude Include="..\Include\Animations\FrameListAnimation.h" />
+    <ClInclude Include="..\Include\Animations\FrameRangeAnimation.h" />
+    <ClInclude Include="..\Include\Animations\MovingAnimation.h" />
+    <ClInclude Include="..\Include\Animations\MovingPathAnimation.h" />
+    <ClInclude Include="..\Include\Animations\ScrollAnimation.h" />
+    <ClInclude Include="..\Include\Animations\TickAnimation.h" />
+    <ClInclude Include="..\Include\Animators\Animator.h" />
+    <ClInclude Include="..\Include\Animators\AnimatorManager.h" />
+    <ClInclude Include="..\Include\Animators\FrameRangeAnimator.h" />
+    <ClInclude Include="..\Include\Animators\MovingAnimator.h" />
+    <ClInclude Include="..\Include\Animators\MovingPathAnimator.h" />
+    <ClInclude Include="..\Include\Animators\TickAnimator.h" />
+    <ClInclude Include="..\Include\App\App.h" />
+    <ClInclude Include="..\Include\App\Game.h" />
+    <ClInclude Include="..\Include\Collision\BoundingArea.h" />
+    <ClInclude Include="..\Include\Collision\BoundingBox.h" />
+    <ClInclude Include="..\Include\Collision\BoundingCircle.h" />
+    <ClInclude Include="..\Include\Collision\BoundingPolygon.h" />
+    <ClInclude Include="..\Include\Collision\CollisionChecker.h" />
+    <ClInclude Include="..\Include\Enemies\EnemiesManager.h" />
+    <ClInclude Include="..\Include\Enemies\EnemiesTemplate.h" />
+    <ClInclude Include="..\Include\Enemies\Goomba.h" />
+    <ClInclude Include="..\Include\Enemies\KoopaTroopa.h" />
+    <ClInclude Include="..\Include\Enemies\Piranha.h" />
+    <ClInclude Include="..\Include\Items\Items.h" />
+    <ClInclude Include="..\Include\Main\Main.h" />
+    <ClInclude Include="..\Include\Mario\Mario.h" />
+    <ClInclude Include="..\Include\Sound\SoundsManager.h" />
+    <ClInclude Include="..\Include\Sprite\Clipper.h" />
+    <ClInclude Include="..\Include\Sprite\GravityHandler.h" />
+    <ClInclude Include="..\Include\Sprite\MotionQuantizer.h" />
+    <ClInclude Include="..\Include\Sprite\Sprite.h" />
+    <ClInclude Include="..\Include\Sprite\SpriteManager.h" />
+    <ClInclude Include="..\Include\Terrain\CircularBackground.h" />
+    <ClInclude Include="..\Include\Terrain\GameOverLayer.h" />
+    <ClInclude Include="..\Include\Terrain\GridComputation.h" />
+    <ClInclude Include="..\Include\Terrain\GridLayer.h" />
+    <ClInclude Include="..\Include\Terrain\ScoreLayer.h" />
+    <ClInclude Include="..\Include\Terrain\StartLayer.h" />
+    <ClInclude Include="..\Include\Terrain\Terrain.h" />
+    <ClInclude Include="..\Include\Terrain\TileLayer.h" />
+    <ClInclude Include="..\Include\Terrain\TileSet.h" />
+    <ClInclude Include="..\Include\Time\SystemClock.h" />
+    <ClInclude Include="..\Include\Time\SystemTime.h" />
+    <ClInclude Include="..\Include\Utilities\Shapes.h" />
+    <ClInclude Include="..\Include\Utilities\Utilities.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\Animations\AnimationFilm.cpp" />
+    <ClCompile Include="..\Src\Animations\AnimationFilmHolder.cpp" />
+    <ClCompile Include="..\Src\Animations\BitmapLoader.cpp" />
+    <ClCompile Include="..\Src\Animations\FlashAnimation.cpp" />
+    <ClCompile Include="..\Src\Animations\FrameListAnimation.cpp" />
+    <ClCompile Include="..\Src\Animations\FrameRangeAnimation.cpp" />
+    <ClCompile Include="..\Src\Animations\MovingAnimation.cpp" />
+    <ClCompile Include="..\Src\Animations\MovingPathAnimation.cpp" />
+    <ClCompile Include="..\Src\Animations\ScrollAnimation.cpp" />
+    <ClCompile Include="..\Src\Animations\TickAnimation.cpp" />
+    <ClCompile Include="..\Src\Animators\Animator.cpp" />
+    <ClCompile Include="..\Src\Animators\AnimatorManager.cpp" />
+    <ClCompile Include="..\Src\Animators\FrameRangeAnimator.cpp" />
+    <ClCompile Include="..\Src\Animators\MovingAnimator.cpp" />
+    <ClCompile Include="..\Src\Animators\MovingPathAnimator.cpp" />
+    <ClCompile Include="..\Src\Animators\TickAnimator.cpp" />
+    <ClCompile Include="..\Src\App\Game.cpp" />
+    <ClCompile Include="..\Src\Collision\BoundingBox.cpp" />
+    <ClCompile Include="..\Src\Collision\CollisionChecker.cpp" />
+    <ClCompile Include="..\Src\Enemies\EnemiesManager.cpp" />
+    <ClCompile Include="..\Src\Enemies\Goomba.cpp" />
+    <ClCompile Include="..\Src\Enemies\KoopaTroopa.cpp" />
+    <ClCompile Include="..\Src\Enemies\Piranha.cpp" />
+    <ClCompile Include="..\Src\Items\Items.cpp" />
+    <ClCompile Include="..\Src\Main\Main.cpp" />
+    <ClCompile Include="..\Src\Mario\Mario.cpp" />
+    <ClCompile Include="..\Src\Sound\SoundsManager.cpp" />
+    <ClCompile Include="..\Src\Sprite\Clipper.cpp" />
+    <ClCompile Include="..\Src\Sprite\GravityHandler.cpp" />
+    <ClCompile Include="..\Src\Sprite\MotionQuantizer.cpp" />
+    <ClCompile Include="..\Src\Sprite\Sprite.cpp" />
+    <ClCompile Include="..\Src\Sprite\SpriteManager.cpp" />
+    <ClCompile Include="..\Src\Terrain\CircularBackground.cpp" />
+    <ClCompile Include="..\Src\Terrain\GameOverLayer.cpp" />
+    <ClCompile Include="..\Src\Terrain\GridComputation.cpp" />
+    <ClCompile Include="..\Src\Terrain\GridLayer.cpp" />
+    <ClCompile Include="..\Src\Terrain\ScoreLayer.cpp" />
+    <ClCompile Include="..\Src\Terrain\StartLayer.cpp" />
+    <ClCompile Include="..\Src\Terrain\Terrain.cpp" />
+    <ClCompile Include="..\Src\Terrain\TileLayer.cpp" />
+    <ClCompile Include="..\Src\Terrain\TileSet.cpp" />
+    <ClCompile Include="..\Src\Time\SystemClock.cpp" />
+    <ClCompile Include="..\Src\Time\SystemTime.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\AllegroDeps.1.10.0.0\build\native\AllegroDeps.targets" Condition="Exists('..\packages\AllegroDeps.1.10.0.0\build\native\AllegroDeps.targets')" />
+    <Import Project="..\packages\Allegro.5.2.5.2\build\native\Allegro.targets" Condition="Exists('..\packages\Allegro.5.2.5.2\build\native\Allegro.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\AllegroDeps.1.10.0.0\build\native\AllegroDeps.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\AllegroDeps.1.10.0.0\build\native\AllegroDeps.targets'))" />
+    <Error Condition="!Exists('..\packages\Allegro.5.2.5.2\build\native\Allegro.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Allegro.5.2.5.2\build\native\Allegro.targets'))" />
+  </Target>
+</Project>

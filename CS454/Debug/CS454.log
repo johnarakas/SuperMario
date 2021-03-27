@@ -1,0 +1,53 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  AnimationFilm.cpp
+c:\users\dimokritos\source\cs454\src\animations\animationfilm.cpp(5): warning C4267: 'return': conversion from 'size_t' to 'Byte', possible loss of data
+  AnimationFilmHolder.cpp
+  BitmapLoader.cpp
+  FlashAnimation.cpp
+  FrameListAnimation.cpp
+  FrameRangeAnimation.cpp
+  MovingAnimation.cpp
+  MovingPathAnimation.cpp
+  ScrollAnimation.cpp
+  TickAnimation.cpp
+  Animator.cpp
+  AnimatorManager.cpp
+  FrameRangeAnimator.cpp
+  MovingAnimator.cpp
+  MovingPathAnimator.cpp
+  TickAnimator.cpp
+  Game.cpp
+  BoundingBox.cpp
+  CollisionChecker.cpp
+  EnemiesManager.cpp
+  Generating Code...
+  Compiling...
+  Goomba.cpp
+  KoopaTroopa.cpp
+  Piranha.cpp
+  Items.cpp
+  Main.cpp
+  Mario.cpp
+c:\users\dimokritos\source\cs454\src\mario\mario.cpp(655): warning C4018: '<': signed/unsigned mismatch
+  SoundsManager.cpp
+  Clipper.cpp
+  GravityHandler.cpp
+  MotionQuantizer.cpp
+  Sprite.cpp
+  SpriteManager.cpp
+  CircularBackground.cpp
+  GameOverLayer.cpp
+  GridComputation.cpp
+  GridLayer.cpp
+  ScoreLayer.cpp
+  StartLayer.cpp
+  Terrain.cpp
+  TileLayer.cpp
+  Generating Code...
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(16707566): warning C4172: returning address of local variable or temporary
+  Compiling...
+  TileSet.cpp
+  SystemClock.cpp
+  SystemTime.cpp
+  Generating Code...
+  CS454.vcxproj -> C:\Users\Dimokritos\source\CS454\Bin\Debug\CS454.exe
